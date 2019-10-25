@@ -1,0 +1,6 @@
+/* we want an avatar shaped as a perfect circle */
+.avatar {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}

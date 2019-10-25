@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Shadows+Into+Light&display=swap");
+
+/*@import url("components/page-content.css");*/
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import	url("components/banner.css");
+@import url("components/card.css");
+/*@import url("components/sidebar.css");*/
+
+body {
+	background-color: #a9c4dd;
+	color: steelblue; /* text color */
+	font-family: 'Annie Use Your Telescope';
+	font-size: 18px;
+	margin: 0px;
+}
+h1, h2, h3 {
+	font-family: 'Shadows Into Light';
+	font-weight: bold;
+}
+
+/* for links */
+a {
+	text-decoration: none; /* kills the text decorations for my links */
+	color: rgb(70, 130, 200); /* text color of all links */
+
+	/* CSS transition */
+	transition: color 0.3s ease; /* gives a smooth transition for when you hover over a link */
+}
+
+/* pseudo class to change what happens with links when I hover my mouse over the link (designing the 'hover' state of the links) */
+a:hover {
+	color: slateblue;
+	font-weight: 700; /* bolden when you hover */
+}

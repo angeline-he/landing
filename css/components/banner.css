@@ -1,0 +1,23 @@
+.banner{
+	/* we go back to the roots of the folder to access our image file */
+	background-image: linear-gradient(29deg, rgba(50,90,90,0.7), rgba(33,30,50,0.7), rgba(90,50,50,0.7)), url(../../images/background.JPG); /* we add a filter for contrast */
+
+	color: white;
+	letter-spacing: 5px;
+    padding: 120px 0px;
+	background-size: cover;
+	background-position: center ;
+}
+
+.banner h1 {
+	font-size: 60px;
+	font-weight: bolder;
+	letter-spacing: 10px;
+}
+
+.banner h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 40px; 
+}
